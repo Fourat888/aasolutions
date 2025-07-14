@@ -47,7 +47,297 @@ body {
   background-color: var(--white-color);
   font-family: var(--body-font-family); 
 }
+/* Make dropdown open on hover */
+.custom-dropdown:hover .dropdown-menu {
+    display: block;
+}
 
+/* Remove Bootstrap default shadow */
+.custom-dropdown .dropdown-menu {
+    background-color: #1a1a1a; /* Dark background */
+    border: none;
+    box-shadow: none;
+    margin-top: 0;
+}
+
+/* Style dropdown links */
+.custom-dropdown .dropdown-item {
+    color: white;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 10px 20px;
+}
+
+.custom-dropdown .dropdown-item:hover {
+    color: #F8B000; /* Your golden color */
+    background-color: transparent;
+}
+
+.navbar-logo {
+  max-height: 60px;
+  width: auto;
+}
+.buttom-logo {
+  max-height: 100px;
+  width: auto;
+}
+@media (min-width: 769px) {
+  .img-bump {
+    position: relative;
+    transform: translate(100px, 100px) scale(1.5);
+    max-height: none;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-logo {
+    max-height: 50px;
+  }
+}
+
+#hero-section1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9; /* Keeps video proportions */
+  overflow: hidden;
+}
+
+  /* Isolated Contact Section */
+.new-contact {
+  padding: 100px 5vw;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.new-contact-container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 60px 30px;
+}
+
+.new-contact-title {
+  text-align: center;
+  font-size: 3.2rem;
+  margin-bottom: 50px;
+  font-weight: 600;
+  color: #222;
+}
+
+.new-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.new-contact-form input,
+.new-contact-form textarea {
+  background: #fff;
+  border: 1px solid #ccc;
+  padding: 20px 22px;
+  font-size: 1.3rem;
+  border-radius: 6px;
+  color: #222;
+  width: 100%;
+}
+
+.new-contact-form input:focus,
+.new-contact-form textarea:focus {
+  border-color: #666;
+  outline: none;
+}
+
+.new-contact-form textarea {
+  resize: vertical;
+  min-height: 220px;
+}
+
+.new-contact-form button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: 100%;
+}
+
+.new-contact-form button:hover {
+  background: #000;
+}
+
+              
+
+                .video-container video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+   
+                .overlay-text {
+                  position: absolute;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  color: white;
+                  text-align: center;
+                  font-size: 3rem;
+                  font-weight: bold;
+                  text-transform: uppercase;
+                }
+.book-section.tight-top {
+    padding-top: 0px !important;
+}
+
+
+                .overlay-text span {
+                  font-size: 5rem;
+                }
+                @media (min-width: 992px) {
+  .hero-stes {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+.image-container {
+  height: 60vh; /* or any fixed height like 600px */
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.references-section {
+  background-color: #111; /* use image if needed */
+  color: #ccc;
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ccc;
+}
+
+.reference-logo {
+  width: 100%;
+  max-height: 100px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); /* optional: make logos white-like */
+}
+@media (min-width: 768px) {
+  .col-md-custom {
+    width: 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+.contact-section {
+  background: url('your-bg.jpg') no-repeat center center;
+  background-size: cover;
+  padding: 80px 20px;
+  color: #fff;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #777;
+  padding: 10px;
+  color: #fff;
+  font-size: 1rem;
+  outline: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.send-button {
+  position: relative;
+  display: inline-block;
+  background: transparent;
+  color: #fff;
+  font-weight: 700;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  letter-spacing: 1px;
+}
+
+.send-button .line {
+  position: absolute;
+  background: #ffc107; /* gold/yellow lines */
+  transition: 0.4s;
+}
+
+.send-button .left,
+.send-button .right {
+  width: 1px;
+  height: 20px;
+}
+
+.send-button .top,
+.send-button .bottom {
+  height: 1px;
+  width: 20px;
+}
+
+.send-button .left {
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.send-button .right {
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.send-button .top {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.send-button .bottom {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.send-button:hover .line {
+  background: #fff;
+}
 
 /*---------------------------------------
   TYPOGRAPHY               
@@ -553,8 +843,6 @@ strong {
   HERO        
 -----------------------------------------*/
 .hero-section {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
