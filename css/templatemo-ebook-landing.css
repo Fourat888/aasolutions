@@ -81,6 +81,16 @@ body {
   max-height: 100px;
   width: auto;
 }
+/* only for desktop */
+  /* when you hover the LI, force the menu open */
+  .nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    margin-top: 0;           /* undo the default “offset” */
+  }
+
+
 @media (min-width: 769px) {
   .img-bump {
     position: relative;

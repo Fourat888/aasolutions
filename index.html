@@ -65,41 +65,60 @@ https://templatemo.com/tm-588-ebook-landing
                     </button>
     
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav ms-lg-auto me-lg-4">
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_1">ABOUT US</a>
-                            </li>
-    
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_2">OUR VALUES</a>
-                            </li>
+<ul class="navbar-nav ms-lg-auto me-lg-4">
+    <li class="nav-item">
+        <a class="nav-link click-scroll" href="#section_1" data-i18n="about_us">ABOUT US</a>
+    </li>
 
-                    <li class="nav-item dropdown custom-dropdown">
-    <a class="nav-link click-scroll" href="#section_3">OUR EXPERTISE</a>
-    <ul class="dropdown-menu">
-        <li><a class="dropdown-item smoothscroll" href="#item-1"><strong>BRAND STRATEGY</strong></a></li>
-        <li><a class="dropdown-item smoothscroll" href="#item-2"><strong>BUSINESS NETWORKING CREATION</strong></a></li>
-        <li><a class="dropdown-item smoothscroll" href="#item-3"><strong>LUXURY EVENT</strong></a></li>
-        <li><a class="dropdown-item smoothscroll" href="#item-4"><strong>LABEL</strong></a></li>
-    </ul>
+    <li class="nav-item">
+        <a class="nav-link click-scroll" href="#section_2" data-i18n="our_values">OUR VALUES</a>
+    </li>
+
+<li class="nav-item dropdown custom-dropdown"
+    data-bs-auto-close="outside">
+  <a class="nav-link dropdown-toggle"
+     href="#"
+     role="button"
+     data-bs-toggle="dropdown"
+     data-i18n="our_expertise">
+    OUR EXPERTISE
+  </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item click-scroll" href="#item-1" data-i18n="brand_strategy"><strong>BRAND STRATEGY</strong></a></li>
+            <li><a class="dropdown-item click-scroll" href="#item-2" data-i18n="business_networking"><strong>BUSINESS NETWORKING CREATION</strong></a></li>
+            <li><a class="dropdown-item click-scroll" href="#item-3" data-i18n="luxury_event"><strong>LUXURY EVENT</strong></a></li>
+            <li><a class="dropdown-item click-scroll" href="#item-4" data-i18n="label"><strong>LABEL</strong></a></li>
+        </ul>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link click-scroll" href="#section_4" data-i18n="our_references">OUR REFERENCES</a>
+    </li>
+
+    <li class="nav-item">
+        <a class="nav-link click-scroll" href="#section_5" data-i18n="contact">CONTACT</a>
+    </li>
+<li class="nav-item dropdown"
+    data-bs-auto-close="outside">
+  <a class="nav-link dropdown-toggle d-flex align-items-center"
+     href="#"
+     role="button"
+     data-bs-toggle="dropdown"
+     id="languageToggle">
+    <img id="currentFlag" src="images/en_US.png" width="20" class="me-1">
+    <span id="currentLangLabel">ENGLISH</span>
+  </a>
+  <ul class="dropdown-menu">
+    <li>
+      <a class="dropdown-item d-flex align-items-center" href="#" onclick="switchLanguage()">
+        <img id="altFlag" src="images/fr_FR.png" width="20" class="me-1">
+        <span id="altLangLabel">FRANÇAIS</span>
+      </a>
+    </li>
+  </ul>
 </li>
 
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_4">OUR REFERENCES</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link click-scroll" href="#section_5">CONTACT</a>
-                            </li>
-                        </ul>
-
-                        <!-- <div class="d-none d-lg-block">
-                            <a href="#" class="btn custom-btn custom-border-btn btn-naira btn-inverted">
-                                <i class="btn-icon bi-cloud-download"></i>
-                                <span>Download</span>
-                            </a>
-                        </div> -->
+</ul>
                     </div>
                 </div>
             </nav>
@@ -114,7 +133,7 @@ https://templatemo.com/tm-588-ebook-landing
         <!-- Centered "About Us" heading -->
         <div class="row">
             <div class="col-12 text-center">
-                <h1 class="section-title mb-5">About Us</h1>
+<h1 class="section-title mb-5" data-i18n="about_us_title">About Us</h1>
             </div>
         </div>
 
@@ -129,20 +148,11 @@ https://templatemo.com/tm-588-ebook-landing
             <!-- Text second on mobile, first on desktop -->
             <div class="col-lg-6 col-12 order-2 order-lg-1">
                 <div class="book-section-info">
-                    <h6>Story</h6>
-                    <h2 class="mb-4">Who we are</h2>
+<h6 data-i18n="story_heading">Story</h6>
+<h2 class="mb-4" data-i18n="who_we_are">Who we are</h2>
 
-<pre style="white-space: pre-wrap; font-family: inherit;">
-Empowering Athletes and Entertainers to Soar Together in the World of Sports and Entertainment. The AA Solutions, because we’re #StrongerTogether
+<pre data-i18n="about_us_paragraph" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-With its international influence, from Paris to Los Angeles via Tunis, AASolutions is an agency specialized in personal branding, business networking, luxury events and artistic careers management.
-
-AASolutions, also, has expertise in brand strategy. Our teams lead the path for your business, for your conferences, corporate events, exhibitions, product launches, artistic booking …
-
-With its network of partners, AASolutions offers comprehensive, top-quality services, reviewed in the last detail.
-
-Our mission, to surprise you beyond your expectations ..
-</pre>
                 </div>
             </div>
         </div>
@@ -158,16 +168,12 @@ Our mission, to surprise you beyond your expectations ..
                         </div>
 
                         <div class="col-lg-6 col-12 mt-5 mt-lg-0">
-                            <h6>Our Founder and CEO</h6>
+<h6 data-i18n="founder_heading">Our Founder and CEO</h6>
 
-                            <h2 class="mb-4">Adel Aref</h2>
+<h2 class="mb-4" data-i18n="founder_name">Adel Aref</h2>
 
-  <pre style="white-space: pre-wrap; font-family: inherit;">
-Former International Tennis Referee Gold Badge (Highest Level in Tennis) and sports executive.
+<pre data-i18n="founder_bio" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-Adel Aref was the Marketing and Brand Director of the International Tennis Tournaments in Doha, Qatar.
-
-He has also served as Director of Cabinet of the President at Paris Saint Germain Football Club and PR Director for BeIN Sports.</pre>
                         </div>
 
                     </div>
@@ -188,7 +194,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
              
 
       <div class="col-12 text-center">
-                <h1 class="section-title mb-5">Our values</h1>
+<h1 class="section-title mb-5" data-i18n="our_values_title">Our values</h1>
             </div>
                             <div class="owl-carousel owl-theme">
                                 
@@ -198,7 +204,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
 </div>
                                     <div class="owl-carousel-info">
                                         <h4 class="mb-2">
-                                            WIN WIN
+<h4 class="mb-2" data-i18n="value_winwin">WIN WIN</h4>
                                         </h4>
                                     </div>
                                 </div>
@@ -209,7 +215,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
 </div>
                                     <div class="owl-carousel-info">
                                         <h4 class="mb-2">
-                                            FINENESS
+<h4 class="mb-2" data-i18n="value_fineness">FINENESS</h4>
                                         </h4>
                                     </div>
                                 </div>
@@ -220,7 +226,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
                                     <img src="images/67509327_498036300945759_1316684351290736640_n.jpg" class="hero-img" alt="" alt="">
 </div>
                                     <div class="owl-carousel-info">
-                                        <h4 class="mb-2">DISCRETION</h4>
+<h4 class="mb-2" data-i18n="value_discretion">DISCRETION</h4>
                                     </div>
 
                             
@@ -232,7 +238,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
                                     <img src="images/img3.jpg" class="hero-img" alt="" alt="">
 </div>
                                     <div class="owl-carousel-info">
-                                        <h4 class="mb-2">CREATIVITY</h4>
+<h4 class="mb-2" data-i18n="value_creativity">CREATIVITY</h4>
                                     </div>               
                                 </div>
 
@@ -242,7 +248,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
 </div>
                                     <div class="owl-carousel-info">
                                         <h4 class="mb-2">
-                                            LISTENING
+<h4 class="mb-2" data-i18n="value_listening">LISTENING</h4>
                                         </h4>
                                     </div>
 
@@ -253,7 +259,7 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
                                     <img src="images/fce-key-vocabulary-for-listening.jpg" class="hero-img" alt="" alt="">
 </div>
                                     <div class="owl-carousel-info">
-                                        <h4 class="mb-2">ENGAGEMENT</h4>
+<h4 class="mb-2" data-i18n="value_engagement">ENGAGEMENT</h4>
                                     </div>
                                 </div>
                             </div>
@@ -270,19 +276,16 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
                         <div class="col-lg-12 col-12 text-center">
                             <!-- <h6>What's inside?</h6> -->
 
-                            <h2 class="mb-5">Our Expertise</h2>
+<h2 class="mb-5" data-i18n="our_expertise_title">Our Expertise</h2>
                         </div>
 
                         <div class="col-lg-4 col-12">
                             <nav id="navbar-example3" class="h-100 flex-column align-items-stretch">
                                 <nav class="nav nav-pills flex-column">
-                                    <a class="nav-link smoothscroll" href="#item-1"><strong>SPORTS & ENTERTAINMENT</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-2"> <strong>BUSINESS NETWORKING CREATION</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-3"><strong>LUXURY EVENT</strong></a>
-
-                                    <a class="nav-link smoothscroll" href="#item-4"><strong>LABEL</strong></a>
+                                    <a class="nav-link smoothscroll" href="#item-1" data-i18n="expertise_nav_sports">SPORTS & ENTERTAINMENT</a>
+                                    <a class="nav-link smoothscroll" href="#item-2" data-i18n="expertise_nav_networking">BUSINESS NETWORKING CREATION</a>
+                                    <a class="nav-link smoothscroll" href="#item-3" data-i18n="expertise_nav_event">LUXURY EVENT</a>
+                                    <a class="nav-link smoothscroll" href="#item-4" data-i18n="expertise_nav_label">LABEL</a>
 
                                 </nav>
                             </nav>
@@ -291,58 +294,37 @@ He has also served as Director of Cabinet of the President at Paris Saint Germai
                         <div class="col-lg-8 col-12">
                             <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
                                 <div class="scrollspy-example-item" id="item-1">
-                                                                        <h5>SPORTS & ENTERTAINMENT</h5>
+                                        <h5 data-i18n="expertise_sports_title">SPORTS & ENTERTAINMENT</h5>
 
-                                    <pre style="white-space: pre-wrap; font-family: inherit;">
-The AASolutions is your gateway to elevating your personal brand and market positioning to new heights. With our expert team, we offer a comprehensive suite of services designed to transform you into a prominent figure in the world of sports and entertainment.
+<pre data-i18n="expertise_sports_text" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-From crafting compelling narratives that resonate with your audience to strategically building and managing your online presence, we’re dedicated to ensuring that your brand is not just memorable but also influential.
-
-We’ll work closely with you to create a tailored strategy that aligns with your goals and values, enhancing your market position while engaging with fans and followers in an authentic and impactful manner.
-
-Let us help you make your mark in the industry and seize the opportunities that await you.</pre>
                                         <div class="col-lg-6 col-12">
                                             <img src="images/WhatsApp-Image-2021-04-23-at-16.05.16-2.jpeg" class="img-fluid" alt="">
                                         </div>
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-2">
-                                                                        <h5>BUSINESS NETWORKING CREATION</h5>
+<h5 data-i18n="expertise_networking_title">BUSINESS NETWORKING CREATION</h5>
 
-                                                   <pre style="white-space: pre-wrap; font-family: inherit;">
-Utilizing AASolutions’ extensive global network is a key advantage in enhancing your personal branding and market positioning. Our connections span across the sports and entertainment industry worldwide, providing you with unparalleled opportunities for exposure and growth. Through our network, you can access a diverse range of markets, audiences, and industry professionals, allowing you to expand your reach and influence on a global scale.
+          <pre data-i18n="expertise_networking_text" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-We’ll connect you with strategic partners, sponsors, and platforms that align with your brand, opening doors to international collaborations and endorsements. This global reach not only diversifies your fan base but also positions you as a credible and influential figure with a far-reaching impact.
-
-With AASolutions’ global network at your disposal, the world truly becomes your stage for personal brand growth and market positioning success.</pre>
 
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-3">
-                                    <h5>LUXURY EVENT</h5>
+<h5 data-i18n="expertise_event_title">LUXURY EVENT</h5>
 
-                                                   <pre style="white-space: pre-wrap; font-family: inherit;">
-With over a decade of expertise, AASolutions agency stands by its clients throughout every event.
+<pre data-i18n="expertise_event_text" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-Leveraging our extensive partner network, we provide customized services that align seamlessly with their unique requirements.
-
-Our commitment to attentive customer care means we turn our clients’ expectations into vibrant realities.
-
-Originality and excellence define our distinctive approach, leaving an indelible mark on every project we undertake.</pre>
                                     <img src="images/WhatsApp-Image-2021-04-23-at-16.05.16-1-150x150@2x.jpeg" class="scrollspy-example-item-image img-fluid mb-3" alt="">
 
                                 </div>
 
                                 <div class="scrollspy-example-item" id="item-4">
-                                    <h5>LABEL</h5>
+<h5 data-i18n="expertise_label_title">LABEL</h5>
 
-                                                   <pre style="white-space: pre-wrap; font-family: inherit;">
-AASolutions Label, a dedicated expert in musical events, aspires to nurture young talent worldwide.
+<pre data-i18n="expertise_label_text" style="white-space: pre-wrap; font-family: inherit;"></pre>
 
-Operating as a premium label, AASolutions is committed to advancing music in the MENA and Africa regions and excels in unearthing emerging artists.
-
-The scope of AASolutions Label encompasses event coordination, artistic work production, recording, and publication, in addition to adeptly handling legal aspects of artist rights and facilitating their international promotion.
-</pre>
                                
 
 
@@ -356,7 +338,7 @@ The scope of AASolutions Label encompasses event coordination, artistic work pro
             </section>
             <section class="references-section" id="section_4">
   <div class="container text-center">
-    <h2 class="section-title mb-5">Our references</h2>
+<h2 class="section-title mb-5" data-i18n="references_title">Our references</h2>
 
     <div class="row justify-content-center g-4">
       <!-- Row 1 -->
@@ -397,12 +379,12 @@ The scope of AASolutions Label encompasses event coordination, artistic work pro
 </section>
 <section class="new-contact" id="section_5" >
   <div class="new-contact-container">
-    <h2 class="new-contact-title">Contact</h2>
+<h2 class="new-contact-title" data-i18n="contact_title">Contact</h2>
     <form class="new-contact-form">
-      <input type="text" name="name" placeholder="Full Name" required>
-      <input type="email" name="email" placeholder="Email Address" required>
-      <textarea name="message" placeholder="Your Message" required></textarea>
-      <button type="submit">Send</button>
+<input type="text" name="name" data-i18n="placeholder_full_name" data-i18n-attr="placeholder" required>
+<input type="email" name="email" data-i18n="placeholder_email" data-i18n-attr="placeholder" required>
+<textarea name="message" data-i18n="placeholder_message" data-i18n-attr="placeholder" required></textarea>
+<button type="submit" data-i18n="send_button">Send</button>
     </form>
   </div>
 </section>
@@ -412,7 +394,7 @@ The scope of AASolutions Label encompasses event coordination, artistic work pro
 
             <div class="col-lg-4 col-md-6 col-12 mb-4">
                 <img src="images/AAsolution-white.png" alt="asolu" class="mb-3" style="width: 80px;">
-                <p style="color: #dddddd;">
+                <p style="color: #dddddd;" data-i18n="footer_slogan">
                     <strong>Empowering Athletes and Entertainers to Soar Together</strong> in the World of Sports and Entertainment.<br>
                     The AA Solutions, because we’re <strong>#StrongerTogether</strong>
                 </p>
@@ -661,6 +643,40 @@ The scope of AASolutions Label encompasses event coordination, artistic work pro
                 </div>
             </section> -->
         </main>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const navbarMenu = document.getElementById('navbarMenu');
+    const expertiseLink = document.querySelector('[data-i18n="our_expertise"]');
+    const languageToggle = document.getElementById('languageToggle');
+
+    document.querySelectorAll('.navbar-nav a').forEach(link => {
+        link.addEventListener('click', function (event) {
+            const isMobile = window.innerWidth < 992; // Bootstrap lg breakpoint
+
+            // Check if the clicked link is the EXPERTISE main link or the language toggle
+            const isExpertise = expertiseLink && (expertiseLink === this || expertiseLink.contains(this));
+            const isLanguage = languageToggle && (languageToggle === this || languageToggle.contains(this));
+
+            if (isMobile && !isExpertise && !isLanguage) {
+                // Close the menu manually
+                const bsCollapse = new bootstrap.Collapse(navbarMenu, { toggle: false });
+                bsCollapse.hide();
+            }
+        });
+    });
+
+    // Also stop menu from closing when clicking inside language dropdown
+    const languageDropdownItems = document.querySelectorAll('#languageToggle + .dropdown-menu a');
+    languageDropdownItems.forEach(item => {
+        item.addEventListener('click', function (e) {
+            e.stopPropagation();
+        });
+    });
+});
+</script>
+
+
+        <script src="js/translation.js"></script>
 
         <!-- JAVASCRIPT FILES -->
         <script src="js/jquery.min.js"></script>
